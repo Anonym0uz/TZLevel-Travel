@@ -1,0 +1,19 @@
+platform :ios, '10.0'
+
+target 'TZLevel-Travel' do
+  use_frameworks!
+
+  # Pods for TZLevel-Travel
+  pod 'SnapKit', '~> 4.0.0'
+
+  target 'TZLevel-TravelTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TZLevel-TravelUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

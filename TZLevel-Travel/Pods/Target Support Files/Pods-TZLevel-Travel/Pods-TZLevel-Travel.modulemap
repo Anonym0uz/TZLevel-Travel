@@ -1,0 +1,6 @@
+framework module Pods_TZLevel_Travel {
+  umbrella header "Pods-TZLevel-Travel-umbrella.h"
+
+  export *
+  module * { export * }
+}
